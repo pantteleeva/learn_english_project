@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Вход</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #FDECEC;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_7">
+    <property name="leftMargin">
+     <number>150</number>
+    </property>
+    <property name="topMargin">
+     <number>100</number>
+    </property>
+    <property name="rightMargin">
+     <number>150</number>
+    </property>
+    <property name="bottomMargin">
+     <number>100</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+border-radius: 20px;
+box-shadow: 0 4px 18px rgba(198, 40, 40, 0.08);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <property name="leftMargin">
+        <number>20</number>
+       </property>
+       <property name="topMargin">
+        <number>15</number>
+       </property>
+       <property name="rightMargin">
+        <number>20</number>
+       </property>
+       <property name="bottomMargin">
+        <number>15</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <property name="spacing">
+          <number>12</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">font-size: 32px;
+font-family: Inter;
+font-weight: bold;</string>
+           </property>
+           <property name="text">
+            <string>Добро пожаловать</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="spacing">
+            <number>20</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="styleSheet">
+                <string notr="true">QLabel {
+    font-family: &quot;Inter&quot;;
+    font-size: 11pt;
+    color: #6E4F53; 
+    font-weight: normal;
+    padding-bottom: 4px; 
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Логин:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_3">
+               <property name="styleSheet">
+                <string notr="true">QLineEdit {
+    font-family: &quot;Inter&quot;;
+    font-size: 11pt;
+    color: #2B1114; 
+    background-color: #FFFFFF;
+    border: 1px solid #EBD6D8; 
+    border-radius: 14px; 
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+QLineEdit:hover {
+    border: 1px solid #C62828; 
+}
+
+
+QLineEdit:focus {
+    border: 2px solid #C62828; 
+    background-color: #FFF7F6;
+}
+</string>
+               </property>
+               <property name="placeholderText">
+                <string>Введите логин</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="styleSheet">
+                <string notr="true">QLabel {
+    font-family: &quot;Inter&quot;;
+    font-size: 11pt;
+    color: #6E4F53; 
+    font-weight: normal;
+    padding-bottom: 4px; 
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Пароль:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_4">
+               <property name="styleSheet">
+                <string notr="true">QLineEdit {
+    font-family: &quot;Inter&quot;;
+    font-size: 11pt;
+    color: #2B1114; 
+    background-color: #FFFFFF;
+    border: 1px solid #EBD6D8; 
+    border-radius: 14px; 
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+QLineEdit:hover {
+    border: 1px solid #C62828; 
+}
+
+
+QLineEdit:focus {
+    border: 2px solid #C62828; 
+    background-color: #FFF7F6;
+}
+</string>
+               </property>
+               <property name="placeholderText">
+                <string>Введите пароль</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    font-family: &quot;Inter&quot;;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: #9B1C1C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px; 
+    padding: 10px 24px;
+}
+
+QPushButton:hover {
+    background-color: #A82222; 
+}
+
+QPushButton:pressed {
+    background-color: #8E1B1B; 
+}
+</string>
+             </property>
+             <property name="text">
+              <string>Войти</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    font-family: &quot;Inter&quot;;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: #FDECEC;
+    color: #9B1C1C; 
+    border: 2px solid #9B1C1C;
+    border-radius: 20px; 
+    padding: 10px 24px;
+}
+
+QPushButton:hover {
+    background-color: #FAD1D1; 
+}
+
+QPushButton:pressed {
+    background-color: #E6B8B8;
+}
+</string>
+             </property>
+             <property name="text">
+              <string>Создать аккаунт</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
